@@ -1,0 +1,48 @@
+// Results.module.scss
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  
+  .text {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .score {
+    font-size: 1.8rem;
+    color: #0070f3;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .score p {
+    font-weight: bold;
+  }
+  
